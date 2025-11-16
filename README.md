@@ -99,3 +99,11 @@ Your Flask application is now:
 🔥 Served by Gunicorn
 🔥 (Optional) Reverse proxied via Nginx
 🔥 Fully production ready
+
+```
+
+## 👨‍💻 Author
+
+**Prasad**  
+🚀 Cloud & DevOps Enthusiast  
+🔗 Passionate about AWS, EC2, S3, RDS, DevOps, and Full-Stack Development  
