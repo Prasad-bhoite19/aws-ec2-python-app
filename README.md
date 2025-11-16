@@ -39,6 +39,7 @@ python-app/
 │── readme.md
  
 │── Images
+
 ---
 
 # 🛠️ **Complete Setup Steps (Ubuntu EC2)**
