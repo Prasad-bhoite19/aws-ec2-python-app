@@ -37,7 +37,7 @@ python-app/
  
  │── requirements.txt 
  
- │── myenv/ # Virtual environment
+ │── readme.md
 
 ---
 
