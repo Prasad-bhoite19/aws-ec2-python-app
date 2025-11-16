@@ -8,11 +8,10 @@ Deploying a Python application on an **AWS EC2 Ubuntu server** using a **virtual
 
 python-app/
 │── app.py
-│── requirements.txt
-│── README.md
 
-yaml
-Copy code
+│── requirements.txt
+
+│── README.md
 
 ---
 
@@ -38,26 +37,17 @@ SSH into server:
 
 ssh -i your-key.pem ubuntu@EC2_PUBLIC_IP
 
-yaml
-Copy code
-
 ---
 
 # 📌 2. Update Server
 
 sudo apt update && sudo apt upgrade -y
 
-yaml
-Copy code
-
 ---
 
 # 📌 3. Install Python Tools
 
 sudo apt install python3 python3-venv python3-pip -y
-
-yaml
-Copy code
 
 ---
 
@@ -66,15 +56,10 @@ Copy code
 mkdir ~/python-app
 cd ~/python-app
 
-yaml
-Copy code
-
 Upload files:
 
 - app.py  
 - requirements.txt  
-
-(You can use WinSCP / VS Code / scp)
 
 ---
 
@@ -83,17 +68,11 @@ Upload files:
 python3 -m venv venv
 source venv/bin/activate
 
-yaml
-Copy code
-
 ---
 
 # 📌 6. Install Requirements
 
 pip install -r requirements.txt
-
-yaml
-Copy code
 
 ---
 
@@ -102,14 +81,10 @@ Copy code
 python app.py
 
 r
-Copy code
 
 Open in browser:
 
 http://EC2_PUBLIC_IP:5000
-
-yaml
-Copy code
 
 ---
 
@@ -120,8 +95,6 @@ Create service file:
 sudo nano /etc/systemd/system/pythonapp.service
 
 makefile
-Copy code
-
 Paste:
 
 [Unit]
@@ -176,37 +149,12 @@ Visit:
 
 http://EC2_PUBLIC_IP:5000
 
-yaml
-Copy code
-
 ---
 
-# 🧪 Example Files
-
-## 📌 app.py
-
 ```python
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return "Hello from Python App running on EC2 Ubuntu!"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
-📌 requirements.txt
-ini
-Copy code
-Flask==3.0.2
 🔧 Useful Commands
-Restart service
-nginx
-Copy code
 sudo systemctl restart pythonapp
 Stop service
-arduino
-Copy code
 sudo systemctl stop pythonapp
 View logs
 powershell
