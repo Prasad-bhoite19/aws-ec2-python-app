@@ -15,8 +15,11 @@ This README contains **all steps extracted from your terminal commands.**
 ## 📁 Project Structure
 
 python-app/
+
 ├── app.py
+
 ├── requirements.txt
+
 └── README.md
 
 ---
