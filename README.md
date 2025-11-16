@@ -105,6 +105,7 @@ Gunicorn now runs app in background.
 🎉 Deployment Completed Successfully!
 
 Your Flask application is now:
+
 🔥 Running on EC2
 
 🔥 Served by Gunicorn
