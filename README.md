@@ -47,7 +47,7 @@ Follow these steps **in exact order** 👇
 
 ---
 
-## 🔹 **1️⃣ Update Server**
+## 🔹 1️⃣ Update Server**
 ```bash
 sudo apt update -y
 sudo apt upgrade -y
@@ -71,8 +71,8 @@ touch app.py
 touch requirements.txt
 ls
 ```
-```bash
 🔹 5️⃣ Edit app.py and requirements.txt
+```
 ```
 🔹 7️⃣ Install Dependencies
 ```
@@ -91,8 +91,8 @@ python3 app.py
 ```
 Open in browser:
 http://YOUR_EC2_PUBLIC_IP:5000
-```
 🔥 Production Deployment with Gunicorn
+```
 ```
 🔹 10️⃣ Run Gunicorn
 ```
@@ -107,7 +107,6 @@ Your Flask application is now:
 🔥 (Optional) Reverse proxied via Nginx
 🔥 Fully production ready
 
-```
 
 ## 👨‍💻 Author
 
