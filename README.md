@@ -33,8 +33,11 @@ Perfect for beginners learning cloud + backend deployment. 🎉
 python-app/ 
 
  │── app.py 
+ 
  │── requirements.txt 
+ 
  │── readme.md
+ 
  │── Images
 ---
 
