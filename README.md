@@ -1,5 +1,5 @@
 # 🚀 aws-ec2-python-app
-A simple and production-ready **Python Flask Web Application** deployed on an **Ubuntu EC2 instance** using **Gunicorn** and **(optional) Nginx**.
+A simple and production-ready **Python Flask Web Application** deployed on an **Ubuntu EC2 instance** using **Gunicorn**.
 
 ---
 
@@ -106,8 +106,9 @@ Gunicorn now runs app in background.
 
 Your Flask application is now:
 🔥 Running on EC2
+
 🔥 Served by Gunicorn
-🔥 (Optional) Reverse proxied via Nginx
+
 🔥 Fully production ready
 
 ## 👨‍💻 Author
