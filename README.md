@@ -71,6 +71,7 @@ touch app.py
 touch requirements.txt
 ls
 ```
+```bash
 🔹 5️⃣ Edit app.py and requirements.txt
 ```
 🔹 7️⃣ Install Dependencies
