@@ -32,13 +32,13 @@ Perfect for beginners learning cloud + backend deployment. 🎉
 
 python-app/ 
 
- │── app.py 
+│── app.py 
  
- │── requirements.txt 
+│── requirements.txt 
  
- │── readme.md
+│── readme.md
  
- │── Images
+│── Images
 ---
 
 # 🛠️ **Complete Setup Steps (Ubuntu EC2)**
