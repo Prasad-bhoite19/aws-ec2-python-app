@@ -106,11 +106,11 @@ sudo bash myenv/bin/activate
 ```
 python3 app.py
 ```
-***Open in browser:
+***Open in browser:***
 
-http://YOUR_EC2_PUBLIC_IP:5000
+***http://YOUR_EC2_PUBLIC_IP:5000***
 
-🔥 Production Deployment with Gunicorn***
+***🔥 Production Deployment with Gunicorn***
 
 🔹 10️⃣ Run Gunicorn :-
 ```
